@@ -1,0 +1,50 @@
+
+
+
+
+#mainDisplay {
+
+    border-style:outset;
+    border-color:deepskyblue;
+
+}
+
+.h1 {
+    width:600px;
+    text-align: center ;
+
+}
+
+.p {
+    width:600px;
+    text-align: center ;
+
+}
+
+#buttons {
+    text-align: center ;
+    padding-bottom: 150px;
+}
+
+#text {
+    text-align: center ;
+    padding-top:70px;
+    height:200px;
+}
+
+#Imgjscript{
+
+    height:400px;
+    width:340px;
+    float:left;
+}
+
+#Imgjquery{
+
+    height:400px;
+    width:340px;
+    float:right;
+
+
+
+}

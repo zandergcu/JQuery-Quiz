@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/java.js"></script>
+    <link rel=stylesheet href="css/styles.css">
+    <title>Web Programming Quiz</title>
+</head>
+<body>
+
+<div id="mainDisplay">
+     <img src = "img/jscript.png" alt="jscriptimg" id="Imgjscript"/>
+    <img src = "img/jquery.png" alt="jqueryimg" id="Imgjquery"/>
+          <div id="text">
+    <h1> Web Programming Quiz </h1>
+    <p> Welcome to the quiz. Here you will be tested on your knowledge of Java script and JQuery.<br/>
+    There will be 20 questions and you will be marked at the end. Each question will be timed.<br/>
+    You may skip questions to later return to them. Enjoy! </p>
+          </div>
+        <div id=buttons>
+            <button type=button id="takeQuiz" onclick="startFunction()"> Take Quiz </button>
+            <button type=button id="Instructions"> Instructions </button>
+        </div>
+</div>
+
+
+
+<div id="Q1">
+
+    <h1 class = "question" id="hq1" > Question 1: </h1>
+    <p class = "question" id="pq1"> Is the answer yes or no? </p>
+
+    <button type="button" onclick="showHint()" class="question" id="buttonq1"> Hint </button>
+
+    <h2 class ="hint" id ="hq1hint"> Hint 1: </h2>
+    <p class ="hint" id ="pq1hint"> This is hint 1. </p>
+</div>
+
+<div Q2>
+
+    <h1 class ="question" id ="hq2"> Question 2: </h1>
+    <p class ="question" id ="pq2"> Select the correct answer: </p>
+
+    <button type="button" onclick="showHint()" class="question" id="buttonq2"> Hint </button>
+
+    <h2 class ="hint" id ="q2hint"> Hint 2: </h2>
+    <p class ="hint" id ="q2hint"> This is hint 2. </p>
+
+</div>
+
+
+
+
+</body>
+</html>
